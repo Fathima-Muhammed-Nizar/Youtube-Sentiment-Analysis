@@ -6,7 +6,7 @@ The model is trained on the Sentiment140 dataset.
 
 # Features
 
-- **ML Model Training (TensorFlow + Keras):**
+- **ML Model Training (TensorFlow + Keras):**  
 Tokenizes and pads text sequences.  
 Embedding + GlobalAveragePooling + Dense Neural Network.   
 Achieves high accuracy on sentiment classification.    
