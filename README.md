@@ -8,8 +8,8 @@ The model is trained on the Sentiment140 dataset.
 
 - **ML Model Training (TensorFlow + Keras):**
 Tokenizes and pads text sequences.  
-Embedding + GlobalAveragePooling + Dense Neural Network. 
-Achieves high accuracy on sentiment classification.  
+Embedding + GlobalAveragePooling + Dense Neural Network.   
+Achieves high accuracy on sentiment classification.    
 
 - **Sentiment Prediction:**  
 Loads trained model and tokenizer to predict sentiments on new text.  
