@@ -3,6 +3,12 @@
 A Machine Learning + Flask web app that performs sentiment analysis on YouTube video comments.  
 The model is trained on the Sentiment140 dataset  
 
+# Tech Stack
+Python 3  
+TensorFlow / Keras (ML model)  
+Flask (Web framework)  
+Google YouTube Data API (Fetch comments)  
+
 # Installation
 
 Clone this repository  
