@@ -92,4 +92,4 @@ while True:
     else:
         print("Sentiment: Positive")
 
-# you need to download the training data from here: https://www.kaggle.com/datasets/kazanova/sentiment140?resource=download
+#training data: https://www.kaggle.com/datasets/kazanova/sentiment140?resource=download
