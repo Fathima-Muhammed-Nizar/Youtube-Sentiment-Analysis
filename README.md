@@ -1,7 +1,25 @@
 # Overview
 
-A Machine Learning + Flask web app that performs sentiment analysis on YouTube video comments.  
-The model is trained on the Sentiment140 dataset  
+A Machine Learning + Flask web app using TensorFlow/Keras to classify Youtube video comments as Positive, Neu-
+tral, or Negative.   
+The model is trained on the Sentiment140 dataset. 
+
+# Features
+
+- **ML Model Training (TensorFlow + Keras):**
+Tokenizes and pads text sequences.  
+Embedding + GlobalAveragePooling + Dense Neural Network. 
+Achieves high accuracy on sentiment classification.  
+
+- **Sentiment Prediction:**  
+Loads trained model and tokenizer to predict sentiments on new text.  
+
+- **YouTube Integration:**  
+Uses YouTube Data API to fetch video comments.  
+
+- **Web App (Flask):**
+Simple frontend form to enter a YouTube video URL.  
+Displays comment-wise sentiment results and a summary table.  
 
 # Tech Stack
 Python 3  
